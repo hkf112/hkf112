@@ -1,0 +1,308 @@
+.body-header{
+    width: 1220px;
+    margin: 0 auto;
+    height: 775px;
+    box-sizing: border-box;
+    padding:60px;
+    display: flex;
+    background-color: white;
+
+    &>.goods-img{
+        width: 540px;
+        height: 440px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &>ul{
+            width: 80px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            height: 100%;
+            
+            &>li{
+                width: 100%;
+                height: 80px;
+                margin-bottom: 10px;
+                box-sizing: border-box;
+                border:1px solid #ccc;
+                text-align: center;
+                line-height: 80px;
+
+                
+
+                &>img{
+                    width: 54px;
+                    height: 54px;
+                    vertical-align:middle;
+                   
+                }
+            }
+        }
+    }
+
+    &>.goods-info{
+        flex:1;
+
+        &>.info-header{
+            position: relative;
+            border-bottom: 1px solid #ccc;
+
+            &>.info-h-left>p{
+                position: absolute;
+                font-size: 24px;
+                font-weight: 700;
+                color: #dd4444;
+                position:absolute;
+                right:0px;
+                bottom: 30px;
+
+                span{
+                    font-size: 16px;
+                    text-decoration: line-through red;
+                    color: #cccccc;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        &>.info-header>.info-h-left>h1{
+            width: 420px;
+            height: 60px;
+            font-weight: normal;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        &>.info-header>.info-h-left>h2{
+            font-size: 14px;
+            color: #999;
+            margin-bottom: 28px;
+            margin-bottom: 30px;
+
+        }
+
+        /* 促销活动 */
+        &>.info-body{
+            padding:25px 0px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #f3f0f0;
+
+            &>h4{
+                width: 85px;
+                height: 28px;
+                font-weight: normal;
+                line-height: 28px;
+            }
+
+            &>ol{
+                flex: 1;
+
+                &>li{
+                    width: 100%;
+                    height: 21px;
+                    color: #808080;
+                    font-size: 12px;
+                    margin-bottom: 10px;
+
+                    &:nth-child(2) mark{
+                        background: #fffbe5;
+                        border: 1px solid #ffe57a;
+                        color: #e6b217;
+                    }
+
+                    &>mark{
+                        display: inline-block;
+                        background:#fce9e8;
+                        margin-right: 10px;
+                        color: #d44d44;
+                        border: 1px solid #f0bab6;
+                        padding: 0px 5px;
+                        border-radius: 10px;
+                    }
+                }
+
+
+            }
+        }
+
+        /* 尺寸选择 */
+        &>.info-body{
+            &>ul{
+                display: flex;
+                justify-content: flex-start;
+
+                &>li{
+                    font-size: 18px;
+                    padding:0px 20px;
+                    line-height: 50px;
+                    height: 50px;
+                    color: black;
+                    border-radius: 10px;
+                    border: 1px solid #ccc;
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        /* 数量选择 */
+        &>.info4>.info1-right{
+
+            flex:1;
+            display: flex;
+            font-weight: 700;
+            
+            &>input{
+                width: 20px;
+                display: inline-block;
+                margin: 0px 10px;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            &>p{
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                border: 1px solid #ccc;
+                text-align: center;
+                line-height:30px;
+                box-shadow: 0 2px 16px #ccc, 0 0 1px #ccc, 0 0 1px #ccc;  
+            }
+        }
+
+        /* 服务说明 */
+        &>.info5{
+            border:none;
+            &>.info1-right{
+                &>p{
+                    font-size: 12px;
+                    color: #ccc;
+                }
+            }
+        }
+    }
+
+}
+.body-header{
+    position: relative;
+
+    &>.langer{
+        width:600px;
+        height:600px;
+        border:1px solid #ccc;
+        position: absolute;
+        left: 600px;
+        background-image: url('');
+        background-position:0px 0px;
+        background-size: 800px 800px;
+    }
+}
+
+
+.goods-big>span{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.goods-big{
+    flex: 1;
+    width: 420px;
+    height: 400px;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px 20px;    
+
+    &>img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.body-header > .langer{
+    display: none;
+}
+.mask{
+    display: none;
+}
+.ccc{
+    width: 1220px;
+    margin:30px auto;
+}
+.active{
+    background-color: #999;
+    color: white;
+}
+.add,.clc{
+    cursor: pointer;
+}
+.car{
+    width: 1220px;
+    margin: 0 auto;
+    height: 100px;
+    position:sticky;
+    bottom: 0;
+    background:#ededed;
+    display:flex;
+    align-items: center;
+    &>div{
+        flex: 1;
+        display: flex;
+        color:#666;
+        font-weight: normal;
+        font-size: 12px;
+
+        &>p{
+            margin:0px 20px;
+            color: black;
+
+           
+        }
+
+    }
+
+
+    &>button {
+        display: block;
+        height: 34px;
+        line-height: 34px;
+        padding: 2px 10px;
+        border-radius: 6px;
+        background-color: #5f7ed7;
+        box-shadow: inset 0 1px 2px #7ea1e8;
+        text-shadow: 0 -1px 0 #4f70b3;
+        color: #fff;
+        transition: none;
+        margin-left: 10px;
+        
+    }
+
+    &>p{
+        display: block;
+        height: 34px;
+        line-height: 34px;
+        padding: 2px 10px;
+        border-radius: 6px;
+        background-color: #333;
+        box-shadow: inset 0 1px 2px #333;
+        text-shadow: 0 -1px 0 #333;
+        color: #fff;
+        transition: none;
+        margin-left: 40px;
+    }
+
+    &>mark{
+        font-size: 20px;
+        color: red;
+        font-weight: 800;
+        background:#ededed;
+    }
+
+
+}

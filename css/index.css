@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/*  banner 区域  */
+.banner {
+  width: 1220px;
+  height: 530px;
+  margin: 0 auto;
+}
+.banner > .banner-img {
+  width: 100%;
+  height: 100%;
+}
+.banner > .banner-img > .swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.banner > .banner-img > .swiper-slide > a > img {
+  display: block;
+  width: 1220px;
+  height: 100%;
+}
+
+/* banner-loin 区域 */
+.banner-foot {
+  width: 1220px;
+  height: 200px;
+  margin: 30px auto;
+}
+.banner-foot > ul {
+  display: flex;
+  width: 1220px;
+  height: 100%;
+}
+.banner-foot > ul > li {
+  overflow: hidden;
+  border: 1px solid #dcd6d6;
+}
+.banner-foot > ul > li:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.banner-foot > ul > li:first-child {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.banner-foot > ul > li > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+/* 商品列表  */
+.goodslist {
+  width: 1220px;
+  margin: 0 auto;
+  /* 商品列表1 */
+  /* 商品列表2 */
+  /* 商品尾部 */
+}
+.goodslist > div {
+  box-shadow: 0 5px 10px #ccc;
+}
+.goodslist > .listone {
+  width: 100%;
+  height: 490px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.goodslist > .listone .list1-top {
+  padding: 5px 20px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+.goodslist > .listone > .swiper-container {
+  width: 100%;
+  height: 490px;
+}
+.goodslist > .listone > .swiper-container > .iconfont {
+  top: 32px;
+  z-index: 1000;
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  font-weight: 800;
+}
+.goodslist > .listone > .swiper-container > .swiper-button-next, .goodslist > .listone > .swiper-container .swiper-container-rtl .swiper-button-prev {
+  background: none;
+}
+.goodslist > .listone > .swiper-container > .swiper-button-prev, .goodslist > .listone > .swiper-container .swiper-container-rtl .swiper-button-next {
+  background: none;
+  left: 1140px;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper {
+  height: 440px;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper > .swiper-slide {
+  text-align: center;
+  border: 1px solid #d1c9c9;
+  box-sizing: border-box;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper > .swiper-slide > img {
+  margin-top: 35px;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper > .swiper-slide > h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  font-size: 14px;
+  color: black;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper > .swiper-slide > h6 {
+  font-size: 12px;
+  color: #6666;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.goodslist > .listone > .swiper-container > .swiper-wrapper > .swiper-slide > b {
+  color: #d44d44;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.goodslist > .listheight {
+  margin-top: 30px;
+  height: 920px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.goodslist > .listheight > .listtop {
+  padding: 5px 10px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+}
+.goodslist > .listfoot {
+  display: flex;
+  height: 400px;
+  flex-wrap: nowrap;
+}
+.goodslist > .listfoot > .listtop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.goodslist > .listfoot > .listtop > span {
+  color: #666;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  font-weight: 700;
+}
+.goodslist > .listfoot .goods {
+  width: 305px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.goodslist > .listfoot .goods > img {
+  width: 244px;
+  height: 154px;
+}
+.goodslist > .listfoot .goods > h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: black;
+  margin-top: 20px;
+}
+.goodslist > .listfoot .goods > h6 {
+  font-size: 12px;
+  color: #6666;
+  font-weight: normal;
+  margin-top: 15px;
+}
+.goodslist > .listfoot .goods > span {
+  font-size: 12px;
+  margin-top: 30px;
+  color: #5079d9;
+  display: inline-block;
+}
+
+/* 商品公用 */
+.listgoods {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listgoods > .listbig {
+  width: 610px;
+  height: 435px;
+}
+.listgoods > .listbig > img {
+  width: 100%;
+  height: 100%;
+}
+.listgoods > .listsmall {
+  width: 304px;
+  height: 435px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  position: relative;
+  text-align: center;
+}
+.listgoods > .listsmall > img {
+  margin-top: 35px;
+}
+.listgoods > .listsmall > h5 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  font-size: 14px;
+  color: black;
+}
+.listgoods > .listsmall > h6 {
+  font-size: 12px;
+  color: #6666;
+  font-weight: normal;
+  margin-top: 30px;
+}
+.listgoods > .listsmall > b {
+  color: #d44d44;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.car {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 100%;
+  z-index: 10;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.none {
+  display: block;
+}
+
+.swiper-slide {
+  width: 24%;
+}
+
+.banner-img > .swiper-pagination {
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+}
+
+.swiper-pagination-bullets span {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=index.css.map */

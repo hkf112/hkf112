@@ -1,0 +1,169 @@
+.header {
+  margin-bottom: 0px;
+}
+
+.body {
+  width: 1220px;
+  margin: 0 auto;
+  background: white;
+}
+.body > .goods-seach {
+  background-color: #ededed;
+}
+.body > .goods-seach > .goods-title {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.body > .goods-seach > .goods-title > h5 {
+  font-weight: 600;
+  font-size: 12px;
+  color: #6e6b6b;
+  padding: 10px 15px 10px;
+  width: 50px;
+}
+.body > .goods-seach > .goods-title > ol {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1150px;
+  justify-content: flex-start;
+}
+.body > .goods-seach > .goods-title > ol > li {
+  padding: 0px 15px;
+  padding: 1px 8px;
+  margin: 30px 7px 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #333333;
+  cursor: pointer;
+}
+.body > .goods-seach > .goods-title > ol > p {
+  font-size: 12px;
+  color: #333333;
+  padding: 1px 8px;
+}
+.body > .list-goods {
+  width: 100%;
+}
+.body > .list-goods > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.body > .list-goods > ul > li {
+  width: 244px;
+  box-sizing: border-box;
+  height: 375px;
+  text-align: center;
+  position: relative;
+  border-bottom: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  cursor: pointer;
+}
+.body > .list-goods > ul > li:hover h4 {
+  color: #D44;
+}
+.body > .list-goods > ul > li > img {
+  width: 204px;
+  height: 204px;
+  margin-top: 25px;
+}
+.body > .list-goods > ul > li > h3 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  box-sizing: border-box;
+  font-size: 14px;
+  color: black;
+  margin: 10px 0px;
+  padding: 0px 10px;
+}
+.body > .list-goods > ul > li > h4 {
+  font-size: 13px;
+  color: #cccc;
+  font-weight: normal;
+}
+.body > .list-goods > ul > li > .checkbox {
+  display: none;
+}
+.body > .list-goods > ul > li > .checkbox > span {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: #333;
+  font-weight: 600;
+}
+.body > .list-goods > ul > li > .checkbox > mark {
+  padding: 8px 15px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  color: white;
+  font-weight: 600;
+  background-color: #6f97e5;
+}
+.body > .list-goods > ul > li > p {
+  color: red;
+  font-weight: 800;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+}
+.body > .list-goods > ul > li > p > span {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 12px;
+  color: rgba(187, 182, 182, 0.8);
+  text-decoration: line-through;
+}
+
+.active {
+  background-color: skyblue;
+  font-weight: 600;
+  color: white;
+}
+
+.pagination {
+  margin: 30px;
+  width: 100%;
+  color: black;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination > span, .pagination a {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+}
+.pagination > input.jump-ipt {
+  padding: 0px 20px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.list-goods > ul > li:hover {
+  box-shadow: 0 1px 10px #999 inset, 0 0 1px #999 inset, 0 0 1px #999 inset;
+}
+.list-goods > ul > li:hover > p {
+  display: none;
+}
+.list-goods > ul > li:hover > .checkbox {
+  display: block;
+}
+
+.body > .list-goods > ul > li:hover p:nth-of-type(1) {
+  display: none;
+  z-index: 5;
+}
+
+/*# sourceMappingURL=list.css.map */

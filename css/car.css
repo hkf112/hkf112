@@ -1,0 +1,194 @@
+.body {
+  width: 1220px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 0 2px 16px #ccc, 0 0 1px #ccc, 0 0 1px #ccc;
+  /* goods-money */
+}
+.body > h2 {
+  padding: 20px 15px;
+}
+.body > .body-title {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  color: #838383;
+  background: whitesmoke;
+}
+.body > .body-title > p {
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+.body > .body-title > ol > li {
+  width: 137px;
+  display: inline-block;
+  text-align: center;
+}
+.body > .goods {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 110px;
+  padding-right: 0px;
+  /*  goods  */
+}
+.body > .goods > .goods-left {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.body > .goods > .goods-left > img {
+  width: 80px;
+  height: 80px;
+  margin: 0px 20px;
+}
+.body > .goods > .goods-left > .goods-info > h4 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+.body > .goods > .goods-left > .goods-info > span {
+  font-size: 12px;
+  color: #999;
+  display: inline-block;
+  margin-right: 5px;
+}
+.body > .goods > .goods-left > .goods-info > b {
+  font-weight: normal;
+  display: inline-block;
+  margin: 0px 5px;
+  font-size: 12px;
+}
+.body > .goods > .goods-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body > .goods > .goods-right > li {
+  width: 137px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  text-align: center;
+}
+.body > .goods > .goods-right > li > p {
+  padding: 10px;
+  text-align: center;
+  height: 20px;
+}
+.body > .goods > .goods-right > li > span {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 15px;
+  border: 1px solid #999;
+  box-shadow: 0 1px 10px #999, 0 0 1px #999, 0 0 1px #999;
+}
+.body > .goods > .goods-right > li:nth-child(3) {
+  flex-direction: column;
+}
+.body > .goods > .goods-right > li > mark {
+  background: none;
+  color: #dd4444;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.body > .goods-money {
+  padding: 20px;
+  padding-right: 0px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+.body > .goods-money > .money-left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body > .goods-money > .money-left > p {
+  margin: 0 10px 0 20px;
+}
+.body > .goods-money > .money-left > mark {
+  background: none;
+  margin-right: 10px;
+}
+.body > .goods-money > .money-left > span {
+  font-size: 12px;
+  color: #bbbbbb;
+  font-weight: 600;
+}
+.body > .goods-money > .money-right {
+  width: 540px;
+  display: flex;
+}
+.body > .goods-money > .money-right > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  font-weight: 700;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.body > .goods-money > .money-right > li:nth-child(1) {
+  border-right: 1px solid #ccc;
+}
+.body > .goods-money > .money-right > li:nth-child(2) {
+  align-items: start;
+  padding-left: 20px;
+}
+.body > .goods-money > .money-right > li > mark {
+  width: 124px;
+  height: 48px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 2px 29px;
+  line-height: 48px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #5079d9, #7d9de9);
+}
+.body > .goods-money > .money-right > li > p > b {
+  color: #d4d4d4;
+  margin: 0px 10px;
+  color: #dd4444;
+}
+.body > .goods-money > .money-right > li > span {
+  color: #959595;
+  margin-top: 5px;
+}
+.body > .goods-money > .money-right > li > span > i {
+  margin: 0px 10px;
+  font-style: normal;
+}
+.body > .goods-money > .money-right > li > p > span {
+  margin: 0px 10px;
+}
+
+.imgbox {
+  width: 1220px;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+.img {
+  width: 200px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=car.css.map */

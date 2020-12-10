@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="body">
+        <div class="logo">
+            <img src="./img/login/logo.png" alt="">
+            <h1>使用 Smartisan ID 登录官网</h1>
+        </div>
+
+        <div class="login-info">
+
+            <form class="cmxform" id="login"  action="" method="get">
+                <span class="error-title">账号或密码错误,请重新输入</span>
+                <input type="text" value="" class="username" placeholder="手机号/邮箱" name="username" autocomplete="off">
+                <span></span>
+
+                <input type="password" value="" class="password" placeholder="密码" name="password" >
+                <button class="submit login btn btn-success col-sm-5" type="submit" value="">提交</button>
+            </form>
+
+        </div>
+        
+    </div>
+
+    <script src="./assets/jquery/jquery.js"></script>
+    <script src="assets/jquery-validation/jquery.validate.js"></script>
+    <script src="assets/jquery-validation/localization/messages_zh.js"></script>
+    <script src="./assets/cookie.js"></script>
+    <script src="./js/login.js"></script>
+</body>
+</html>
