@@ -21,11 +21,11 @@ var mySwiper = new Swiper ('.swiper-container', {
   var mySwiper = new Swiper ('.banner-img', {
     direction: 'horizontal', // 垂直切换选项
     // 如果需要分页器
-    loop: true,
+    // loop: true,
     pagination: {
       el: '.swiper-pagination',
  
-
+      clickable :true,
       type: 'bullets',
       
     },
@@ -38,9 +38,8 @@ var mySwiper = new Swiper ('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
     allowTouchMove:false, 
-    grabCursor : true,
-    freeMode : true,
+    // grabCursor : true,
+    // freeMode : true,
     freeModeMomentumBounce : false,
-    // loop : true,
 
   })   

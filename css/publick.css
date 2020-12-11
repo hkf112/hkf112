@@ -116,7 +116,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
 }
 .header > .nav-container > .header-none > .nav-serve > p {
   width: 104px;
@@ -139,6 +138,7 @@ body {
   background: white;
   height: 265px;
   position: absolute;
+  width: 1220px;
 }
 
 .header .header-top {
@@ -152,8 +152,6 @@ body {
   width: 1350px;
   height: 45px;
   background-color: #353639;
-  width: 1220px;
-
 }
 .header .header-top .header-container ol {
   box-sizing: border-box;
@@ -389,8 +387,12 @@ body {
   display: block;
 }
 
-.header .nav-goods1.none {
-  z-index: 100;
+.change {
+  display: none;
+}
+
+.header > .nav-container > .header-none.change1 {
+  display: block;
 }
 
 /*# sourceMappingURL=publick.css.map */

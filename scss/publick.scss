@@ -126,7 +126,6 @@ body{
             display: flex;
             justify-content: center;
             align-items: center;
-            display:none;
            
 
             &>p{
@@ -154,6 +153,7 @@ body{
     background: white;
     height: 265px;
     position: absolute;
+    width: 1220px;
 }
     
 }
@@ -446,6 +446,9 @@ body{
 .act{
     display: block;
 }
-.header .nav-goods1.none{
-    z-index: 100;
+.change{
+    display: none;
+}
+.header > .nav-container > .header-none.change1{
+    display: block;
 }

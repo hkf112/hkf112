@@ -45,30 +45,39 @@ $(function () {
 })
 
 const li = document.querySelectorAll('.header-foot > ol > li')
+const ol1 = document.querySelector('.header-foot > ol')
 
 const div = document.querySelectorAll('.header-none > div')
 
-for(let i = 0; i < li.length; i++){
-    li[i].addEventListener('clcik', () => {
 
-        // console.log($(this))
+const g0 = $('.header-none')
+
+for(let i = 0; i < li.length; i++ ){
+
+    li[i].addEventListener('mouseover',function(){
+
+        g0.addClass('change1')
 
         for(let j = 0; j < div.length; j++){
-
-            $('.header > .nav-container > .header-none').css('display', 'block')
-           
-            console.log(th)
-            if(i % 2 === 0 || i !== 12) {
-                $('.header .nav-goods1').addClass("none").siblings().removeClass("none")
-            }else if(i === 12) {
-                $('.header .nav-serve').addClass("none").siblings().removeClass("none")
-            }else{
-                $('.header .nav-add').addClass("none").siblings().removeClass("none")
-
-            }
+            div[j].classList.add('change')
         }
+
+
+       div[$(this).index()].classList.remove('change')
+
+
     })
 }
+console.log(ol1)
+ol1.addEventListener('mouseout',function() {
+    g0.removeClass('change1')
+
+        for(let j = 0; j < div.length; j++){
+            div[j].classList.add('change')
+        }
+})
+
+
 
 
 
